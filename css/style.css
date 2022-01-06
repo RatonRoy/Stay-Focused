@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+/* font-family: 'Oswald', sans-serif;
+font-family: 'Roboto Mono', monospace; 
+font-family: 'Abril Fatface', cursive;
+*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Mono', monospace;
+}
+/* global styles  */
+section{
+  width: 85%;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+/* css global variable  */
+:root{
+  --robotoFamily : 'Roboto Mono', monospace; 
+  --OswaldFamily : 'Oswald', sans-serif;
+}
+a{
+  text-decoration: none;
+}
+.button{
+  background-color: #008CBA;
+  color: white;
+  padding: 0.7rem 1rem;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  border: 2px solid #008CBA; 
+  text-transform: capitalize;
+}
+.button:hover{
+  background-color: white;
+  color: black;
+}
+/* end of css global variable  */
+/* end of global styles */
+/* ******* Start Header Section ******* */
+#header {
+  min-height: 100vh;
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+}
+/* Start header text */
+.header-text{
+    width: 45%;
+}
+.tittle-wrap{
+     border-left: 5px solid navy; 
+     margin-bottom: 4rem; 
+     font-weight: 700;
+     letter-spacing: 2px;
+     /* font-family: 'Oswald', sans-serif; */
+     font-family: 'Abril Fatface', cursive;
+}
+.header-tittle{
+  padding: 1rem 1.5rem;
+  color: #d62828;
+  font-size: 3rem;
+}
+.header-subtittle{
+  padding: 1.5rem 1.5rem;
+  color: #F77F00;
+  font-size: 2.5rem;
+}
+.paragraph{
+  text-align: justify;
+  margin-bottom: 2rem;
+}
+/* End of  header text */
+.header-img{
+  width: 50%;
+  align-content: flex-end;
+}
+/* ******* End of  Header Section ******* */
+/* *************** Start My Mission Section ****************** */
+#mission-section{
+  min-height: 100vh;
+  padding: 2rem 0 ; 
+}
+.mission-tittle{
+  text-align: center;
+  padding: 1rem 0;
+  color: #008CBA; 
+  font-size: 3rem;
+  font-family: var(--OswaldFamily); 
+  letter-spacing: 2px; 
+  text-transform: capitalize;
+  margin: 1rem 0;
+}
+.year{
+  color: #ffea00;
+}
+.card-wrap{
+  display: flex;
+  justify-content: space-around;
+}
+.card{
+  width: 30%; 
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 3px 5px 3px gray;
+}
+.card-tittle{
+  color: #d62828; 
+  padding: 0.5rem 1.5rem ;
+  font-family: var(--OswaldFamily);
+  font-size: 2rem; 
+  letter-spacing: 2px;
+}
+
+.card-img img{
+  width: 50%;
+  height: 30%;
+  display: block;
+  padding: 1rem  0; 
+}
+.card-text{
+  text-align: justify;
+  padding: 0 1.5rem;
+}
+.mission-card{
+  background-color: #d8e2dc;
+}
+.vission-card{
+  background-color:#fec89a ;
+}
+.Goal-card{
+  background-color:#d5bdaf ;
+}
+/* *************** End  My Mission Section ****************** */
+/* **********Start of development section ************ */
+#development-section{
+  padding: 2rem 0;
+  min-height: 100vh; 
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+}
+.deve-img-wrap{
+  display: flex;
+  align-items: center; 
+  width: 60%;
+}
+.deve-img-main img{
+  height: 500px;
+  display: block; 
+  width: 500px;
+}
+.develop-text-wrap{
+  width: 35%;
+}
+.develop-text-tittle{
+  margin-bottom: 2rem;
+  color: #540b0e;
+  letter-spacing: 2px;
+}
+.develop-text-para{
+  text-align: justify;
+  margin-bottom: 2rem;
+}
+/* ************ End of development section ************** */
+
+/* ********** Start Community section ********** */
+#community{
+  padding: 4rem 0;
+  /* min-height: 100vh;  */
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+}
+.community-text-wrap{
+  width: 45%;
+}
+.community-tittle{
+  color: navy;
+  padding: 1.5rem 0 ;
+  letter-spacing: 2px;
+}
+.community-text{
+  text-align: justify;
+  margin-bottom: 2rem;
+}
+.community-img{
+  width: 45%;
+}
+.community-img img{
+  display: block;
+  width: 400px;
+  height: 300px;
+}
+/* ********** End of  Community section ********** */
+/* ******** Bonus section ********* */
+.my-section-tittle{
+  text-align: center;
+  font-size: font-family: 'Abril Fatface', cursive;
+  padding : 1rem;
+  font-size : 3rem;
+  color:#840032;
+}
+
+#bonus-section{
+  min-height: 100vh;
+  background:linear-gradient(to bottom left, rgba(45, 208, 236, 0.3), rgba(49, 120, 228, 0.2)), url("../img/sylhet.jpg") center/cover no-repeat fixed; 
+  display: flex;
+  align-items: center;
+}
+.bonus-text-wrap{
+  
+}
+.bonus-tittle{
+  text-align: center;
+  color: #F80040;
+  font-size: 3rem;
+  letter-spacing: 3px;
+
+}
+.bonus-text{
+  width: 70%;
+  margin: 2rem auto; 
+  color: white;
+}
+.my-button{
+    text-align: center;
+}
+/* ******** End of  Bonus section ********* */
+/* ********footer section ******* */
+#footer{
+  min-height: 20vh;
+  background-color:#0B0D17;
+  text-align: center;
+}
+.text-wrap{
+  padding-top: 2rem ;
+  color: white;
+}
+.footer-year{
+  color: #FF5959;
+}
+/* ********* End of footer section ******* */
